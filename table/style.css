@@ -1,1 +1,47 @@
 /* Add your CSS Below */
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+td, th {
+    padding: 10px
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+tr {
+    border-bottom: 1px solid lightgray;
+}
+
+table tr:nth-of-type(even) {
+background-color: rgb(235, 233, 233);
+}
+
+tr th:first-child, td:first-child {
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* tr th:first-child {
+    border-radius: 10px 0px 0px 0px;  
+}
+
+tr th:last-child {
+    border-radius: 0px 10px 0px 0px; 
+} */
+
+tr th:nth-child(2), td:nth-child(2) {
+width: 200px;
+text-align: left;
+}
+
+tr td:last-child, th:last-child {
+    text-align: right;
+}
